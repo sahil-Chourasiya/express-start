@@ -21,8 +21,7 @@ const users = require('./server/api/register/user.router');
 //     res.send({
 //         "status": "running"
 //     })
-// };
-
+// }
 
 app.use('/api', users);
 
